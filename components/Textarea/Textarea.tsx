@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import { TextareaProps } from './Textarea.props';
 import styles from './Textarea.module.css';
 import cn from 'classnames';

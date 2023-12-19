@@ -9,41 +9,41 @@
 
 .hhtitile {
 	display: grid;
-	grid-template-columns: auto 1f;
+	grid-template-columns: auto 1fr;
 	align-items: baseline;
 	justify-items: left;
 	gap: 20px;
 }
 
 .seo h1 {
+	margin: 0;
 	font-size: 26px;
 	font-weight: 500;
 	line-height: normal;
-	margin: 0;
 }
 
 .seo h2 {
+	margin-top: 50px;
+	margin-bottom: 25px;
 	font-size: 22px;
 	font-weight: 500;
 	line-height: normal;
-	margin-top: 50px;
-	margin-bottom: 25px;
 }
 
 .seo h3 {
+	margin: 0;
 	font-size: 20px;
 	font-weight: 600;
 	line-height: normal;
-	margin: 0;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (width <=640px) {
 	.title {
 		grid-template-columns: auto 1fr;
 	}
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (width <=480px) {
 	.title {
 		grid-template-columns: auto 1fr;
 	}

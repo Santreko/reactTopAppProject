@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import { CardProps } from './Card.props';
 import styles from './Card.module.css';
 import cn from 'classnames';

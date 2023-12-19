@@ -28,11 +28,11 @@
 }
 
 .countValue {
+	margin-bottom: 10px;
 	color: var(--primary);
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 49px;
-	margin-bottom: 10px;
 }
 
 .salaryValue {
@@ -52,20 +52,20 @@
 	fill: var(--red);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (width <= 1200px) {
 	.hh {
 		grid-template-columns: 1fr;
 	}
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (width <= 640px) {
 	.salary {
 		grid-template-columns: 1fr;
 	}
 
 	.salary>div:not(:last-child) {
+		padding-bottom: 20px;
 		border-right: none;
 		border-bottom: 1px solid var(--gray-light);
-		padding-bottom: 20px;
 	}
 }

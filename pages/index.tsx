@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { GetStaticProps } from 'next';
 import { Button, Htag, Input, P, Rating, Tag, Textarea } from '@/components';
 import { withLayout } from '../layout/Layout';
